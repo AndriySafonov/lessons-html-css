@@ -1,7 +1,7 @@
 li [checked] {
   margin-left: 50px;
 }
-label [name] {
+label  {
   text-transform: uppercase;
 }
 [id]::first-letter {
