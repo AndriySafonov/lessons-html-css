@@ -8,7 +8,7 @@
   width: 100%;
 }
 .nav-list {
-  padding: 0;
+  
   margin: 0;
 }
 .nav-item {
@@ -17,6 +17,7 @@
   margin-left: 16px;
   color: white;
   line-height: 40px;
+
 }
 .content {
   height: 5000px;
