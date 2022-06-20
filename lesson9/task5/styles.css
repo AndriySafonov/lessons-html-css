@@ -6,13 +6,18 @@
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
+  
+}
+.nav-list{
+  padding: 0;
+  margin: 0;
 }
 .nav-item {
   display: inline-block;
   height: 40px;
   margin-left: 16px;
   color: white;
-  text-align: center;
+  line-height: 40px;
 }
 .content {
   height: 5000px;
