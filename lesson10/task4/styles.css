@@ -1,5 +1,6 @@
 .block {
   height: 300px;
+  flex-grow: 1;
 }
 .block_red {
   background-color: red;
