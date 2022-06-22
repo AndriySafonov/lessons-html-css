@@ -41,16 +41,14 @@
   width: 200px;
   flex-direction: column;
   background-color: gray;
-  
 }
 h2 {
-    display: flex;
+  display: flex;
   margin: 16px 0 16px 0;
   justify-content: center;
 }
 ul {
   padding: 16px;
   list-style-type: none;
-  
+  line-height: 40px;
 }
-
