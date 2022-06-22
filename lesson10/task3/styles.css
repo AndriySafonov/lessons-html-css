@@ -1,0 +1,53 @@
+.header {
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  height: 40px;
+  background-color: green;
+  display: flex;
+}
+.navigation {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+.navigation_item {
+  margin-left: 16px;
+}
+.footer_text {
+  margin: auto;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+.dashboard {
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  background-color: gray;
+  align-items: center;
+
+}
+h2{
+    margin: 16px 0 16px 0;
+}
+li{
+    font-size:  40px;
+    margin-left: 16px;
+}
