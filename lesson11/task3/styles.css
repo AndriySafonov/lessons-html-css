@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+.dropdown {
+  margin: 16px;
+}
 .menu-button {
   position: relative;
-  margin: 16px;
   background-color: darkgreen;
   color: white;
   opacity: 0.8;
@@ -28,7 +30,6 @@
 }
 .menu-item {
   padding: 16px;
-  
 }
 .dropdown:hover .menu-list {
   display: block;
@@ -36,6 +37,6 @@
 .menu-item:hover {
   background-color: ghostwhite;
 }
-.dropdown:hover{
-    opacity: 1;
+.dropdown:hover {
+  opacity: 1;
 }
