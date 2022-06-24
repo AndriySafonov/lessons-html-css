@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 .dropdown {
+  display: inline-block;
+  position: relative;
   margin: 16px;
 }
 .menu-button {
-  position: relative;
   background-color: darkgreen;
   color: white;
   opacity: 0.8;
@@ -25,8 +26,8 @@
   margin: 0;
   min-width: 120px;
   z-index: 1;
-  top: 66px;
-  left: 16px;
+  float: top;
+  float: left;
 }
 .menu-item {
   padding: 16px;
@@ -37,6 +38,6 @@
 .menu-item:hover {
   background-color: ghostwhite;
 }
-.dropdown:hover {
+.menu-button:hover {
   opacity: 1;
 }
