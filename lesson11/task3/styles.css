@@ -35,3 +35,6 @@
 .menu-item:hover {
   background-color: ghostwhite;
 }
+.dropdown:hover{
+    opacity: 1;
+}
