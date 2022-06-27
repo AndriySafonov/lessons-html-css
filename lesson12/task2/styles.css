@@ -5,6 +5,7 @@ h1 {
   font-size: 74px;
   width: 50%;
   text-align: center;
+  margin: auto;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
