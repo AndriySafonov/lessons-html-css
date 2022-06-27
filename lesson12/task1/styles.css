@@ -1,0 +1,28 @@
+html {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+section{
+    margin: 32px;
+}
+h1{
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    line-height: 28px;
+}
+.technology{
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 80%;
+    font-weight: 900;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+em{
+    color: gray;
+}
