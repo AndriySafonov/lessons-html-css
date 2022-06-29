@@ -6,7 +6,8 @@
   height: 200px;
   border: 1px dotted grey;
   margin: 16px;
-  display: inline-block;
+  display: flex;
+  float: left;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
