@@ -12,6 +12,7 @@ body {
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  
 }
 .page {
   width: 100%;
@@ -21,7 +22,9 @@ body {
   justify-content: center;
 }
 .form-title {
+  text-align: center;
   text-transform: uppercase;
+  
 }
 .form-input {
   margin-bottom: 8px;
@@ -42,7 +45,6 @@ body {
   text-transform: uppercase;
   color: white;
 }
-input:invalid{
+input:invalid {
   border: solid 3px #ff0000;
 }
-
