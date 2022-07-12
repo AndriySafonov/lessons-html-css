@@ -15,7 +15,5 @@
 }
 body{
     display: flex;
-}
-.fa{
-   justify-content: space-around;
+    justify-content: space-around;
 }
