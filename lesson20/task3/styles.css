@@ -13,6 +13,7 @@
   text-transform: uppercase;
   font-size: 16px;
   animation: blinking 2s infinite linear;
+  margin-top: 8px;
 }
 .circle {
   margin: auto;
@@ -23,7 +24,6 @@
   border-right: 4px solid lightgray;
   border-bottom: 4px solid lightgray;
   border-radius: 50%;
-  margin-bottom: 8px;
   animation: spin 2s infinite linear forwards;
 }
 @keyframes blinking {
