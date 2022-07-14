@@ -21,9 +21,7 @@
   border-bottom: 4px solid lightgray;
   border-radius: 50%;
   margin-bottom: 8px;
-  background-color: aqua;
-  
-  animation: spin 2s infinite linear forwards ;
+  animation: spin 2s infinite linear forwards;
 }
 @keyframes blinking {
   0% {
