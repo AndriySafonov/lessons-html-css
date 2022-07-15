@@ -4,9 +4,13 @@
 .container {
   display: flex;
   height: 100vh;
+  justify-content: center;
 }
 .spinner {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .spinner-text {
   font-family: monospace;
@@ -15,7 +19,6 @@
   animation: blinking 2s infinite linear;
 }
 .circle {
-  margin: auto;
   margin: 8px;
   width: 50px;
   height: 50px;
