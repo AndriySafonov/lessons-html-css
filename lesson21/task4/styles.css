@@ -15,7 +15,6 @@ body{
     display: flex;
     flex-grow: 1;
     flex-direction: row;
-    font-size: 1.25em;
     line-height: 1.75em;
 }
 .navigation{
@@ -42,6 +41,7 @@ body{
 }
 .section{
     padding: 0.5em;
+    font-size: 1.25em;
     min-width: 60%;
 }
 .section__header{
