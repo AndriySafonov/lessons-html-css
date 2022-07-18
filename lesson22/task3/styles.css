@@ -1,7 +1,7 @@
-main{
+picture{
     display: flex;
 }
-picture{
+img{
     max-width: 100%;
     margin: auto;
 }
