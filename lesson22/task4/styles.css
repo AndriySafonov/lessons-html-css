@@ -45,7 +45,7 @@ html{
     text-overflow: ellipsis;
 }
 @media screen and (min-width: 600px) {
-    .buttom{
+    .fa{
     display: none;
     opacity: 0;
     position: absolute;
