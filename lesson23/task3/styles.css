@@ -17,6 +17,7 @@
 .menu__item {
   display: flex;
   align-items: center;
+  color: #fff;
   padding: 0 8px;
   cursor: pointer;
 }
