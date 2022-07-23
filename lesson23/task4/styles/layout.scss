@@ -1,0 +1,10 @@
+@mixin medium_screen {
+    @media screen and (min-width: 600px) {
+           @content;
+        }
+}
+@mixin big_screen {
+    @media screen and (min-width: 900px) {
+        @content;
+    }
+}
