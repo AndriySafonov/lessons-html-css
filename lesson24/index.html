@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/headline.css">
+    <link rel="stylesheet" href="styles/common.css">
 </head>
 <body>
     <div class="page">
@@ -26,10 +30,26 @@
                         <a href="#" class="navigation__item">Stories</a>
                         <a href="#" class="navigation__item">Library <i class="navigation__arrow"></i></a>
                 </nav>
-                <button class="header__button">Get started</button>
+                <button class="action-button">Get started</button>
             </header>
-            <section></section>
+
+        <!-- Headline -->
+
+            <section class="headline">
+                <div class="headline__content">
+                    <h1 class="headline__title">Build stunning websites & apps.</h1>
+                    <p class="headline__description">Create live segments and target the right people for messages based on their behaviors.</p>
+                    <div class="headline__actions">
+                        <button class="action-button">Get started</button>
+                        <button class="headline__learn-more-btn">Learn More</button>
+                    </div>
+                </div>
+                <img class="headline__banner" src="img/ouch.png" alt="Headline Banner">
+            </section>
         </div>
+
+        <!-- Footer -->
+
         <footer class="footer">
             <div class="footer-navigation">
                 <div class="about-company">
@@ -46,7 +66,27 @@
                         <img src="img/google-play.png" alt="Google Play Doanload">
                     </div>
                 </div>
-                <div class="additional-navigation"></div>
+                <div class="additional-navigation">
+                    <div class="additional-navigation__colum nav-links">
+                        <h3 class="nav-links__title">Product</h3>
+                        <ul class="nav-links__list">
+                            <li class="nav-links__list-item">Acquire Users</li>
+                            <li class="nav-links__list-item">Content Marketing</li>
+                            <li class="nav-links__list-item">Website Templates</li>
+                            <li class="nav-links__list-item">Customer Management</li>
+                            <li class="nav-links__list-item">Virtual Inbox</li>
+                        </ul>
+                    </div>
+                    <div class="nav-links">
+                        <h3 class="nav-links__title">Company</h3>
+                        <ul class="nav-links__list">
+                            <li class="nav-links__list-item">About Foundation</li>
+                            <li class="nav-links__list-item">Brand Guidelines</li>
+                            <li class="nav-links__list-item">Press Kit </li>
+                            <li class="nav-links__list-item">Support</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="footer__line"></div>
             <div class="footer-links">
@@ -58,7 +98,7 @@
                 <div class="social-links">
                     <a class="social-links__item" href="http://twitter.com" target="_blank"><img src="img/icon-twitter.png" alt="Twitter link"></a>
                     <a class="social-links__item" href="http://facebook.com" target="_blank"><img src="img/icon-fb.png" alt="Facebook link"></a>
-                    <a class="social-links__item" href="http://linkedin.com" target="_blank"><img src="img/inkedIn.png" alt="Linkedin link"></a>
+                    <a class="social-links__item" href="http://linkedin.com" target="_blank"><img src="img/linkedIn.png" alt="Linkedin link"></a>
                 </div>
             </div>
         </footer>
