@@ -51,7 +51,7 @@ html{
     height: 5px;
     width: 8px;
     margin-left: 11px;
-    background-image: url(img/Arrow.png);
+    background-image: url(img/arrow.png);
 }
 .logo{
     display: flex;
@@ -88,10 +88,25 @@ html{
     flex-direction: column;
     margin-bottom: 0;
 }
+.footer__description{
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+;
+}
 .footer-navigation{
     width: 1140px;
     margin: 0 auto;
     height: 338px;
+    padding-top: 44px;
+}
+.doanloads{
+    margin-top: 25px;
+}
+.doanloads__item{
+    margin-right: 10px;
 }
 .footer__line{
     border-top: 1px solid #2B292D;
