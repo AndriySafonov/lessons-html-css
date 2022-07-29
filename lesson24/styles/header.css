@@ -1,13 +1,30 @@
 .header{
-    width: 1140px;
-    height: 62px;
-    margin: auto;
-    display: flex;
+    height: 64px;
+    width: 100%;
+    background-color: #fff;
 }
+
 .navigation{
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
+        display: none;
+}
+
+@media screen and (min-width: 400px) {
+    .top-section{
+        background-color: #F3C6BD;
+        padding-top: 39px;
+    }
+    .header{
+        width: 1140px;
+        height: 62px;
+        margin: auto;
+        display: flex;
+    }
+    .navigation{
+        display: block;
+        margin-left: auto;
+        margin-top: 7px;
+        margin-right: 75px;
+    }
 }
 .navigation__item{
     color: #2B292D;
@@ -56,5 +73,4 @@
 }
 .top-section{
     background-color: #F3C6BD;
-    padding-top: 39px;
 }
