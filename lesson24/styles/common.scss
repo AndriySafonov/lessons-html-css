@@ -8,13 +8,13 @@
     border-radius: 2px;
     border: none;
 }
-@media screen and (min-width: 400px){
-   .hide_desctop{
-    display: none;
+.hide_desctop{  
+    @include for-large-up{
+        display: none;
+    }
 }
-}
-@media screen and (max-width: 399px){
-   .hide_mobile{
-    display: none;
-}
+.hide_mobile{
+    @include for-large-down{
+        display: none;
+    }
 }
